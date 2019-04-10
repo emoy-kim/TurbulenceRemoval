@@ -68,7 +68,7 @@ void playVideoAndRemoveTurbulence(VideoCapture& cam, TurbulenceRemoval& turbulen
       const duration<double> turbulence_removal_process_time = (system_clock::now() - start) * 1000.0;
       cout << "PROCESS TIME: " << turbulence_removal_process_time.count() << " ms... \r";
       
-      key_pressed = displayStabilizedFrame( frame, turbulence_removed, to_pause, false );
+      key_pressed = displayStabilizedFrame( frame, turbulence_removed, to_pause, true );
       if (processKeyPressed( to_pause, key_pressed ) == TO_BE_CLOSED) break;
    }
 }

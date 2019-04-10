@@ -1,3 +1,15 @@
+/*
+ * Author: Emoy Kim
+ * E-mail: emoy.kim_AT_gmail.com
+ * 
+ * This code is based on [1] which is coded by MATLAB.
+ * In [1], the origin code is a offline version, but it is refactored and modified 
+ * as an online version using parallel processing.
+ * 
+ * [1] https://sites.google.com/site/louyifei/research/turbulence
+ * 
+ */
+
 #pragma once
 
 #include <OpenCVLinker.h>
