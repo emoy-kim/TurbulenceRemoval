@@ -9,9 +9,8 @@
   [1] <https://sites.google.com/site/louyifei/research/turbulence>  
   [2] <https://seis.bristol.ac.uk/~eexna/research/CLEAR.html>
     
-#
-#  
-#  
+
+
 ## Test Environment
   * Windows 10
   * Visual Studio 2017
