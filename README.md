@@ -5,24 +5,29 @@
   
   Please refer to [this](emoy.net) to see the results.
   
+  
   [1] <https://sites.google.com/site/louyifei/research/turbulence>  
   [2] <https://seis.bristol.ac.uk/~eexna/research/CLEAR.html>
+    
   
-
+  
   
 ## Test Environment
   * Windows 10
   * Visual Studio 2017
   * Surface Book 2
   
+    
 ## Library Dependencies
   * OpenCV
 
+  
 ## Keyboard Commands
   * **space bar**: pause/resume
   * **f key**: move next frame when paused
   * **ESC key**: move next video when played
   
+    
 ## NOTE
-  This code is posted using *git lfs* because it is including large videos.
+  This code is posted using *git lfs* because it is including large videos.  
   You should activate *LFS* when you clone this project.
