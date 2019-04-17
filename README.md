@@ -3,7 +3,7 @@
   This code is based on [1], and is refactored and modified for C++ code including parallel processing.  
   The dataset I used is mostly from [2]. 
   
-  Please refer to [this](emoy.net) to see the results.
+  Please refer to [this](https://emoy.net/Turbulence-Removal) to see the results.
   
   
   [1] <https://sites.google.com/site/louyifei/research/turbulence>  
