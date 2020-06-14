@@ -6,11 +6,11 @@ void getTestset(std::vector<std::string>& testset)
 {
    const std::string video_directory_path = std::string(CMAKE_SOURCE_DIR) + "/samples";
    testset = {
-      video_directory_path + "/test1.avi",
-      video_directory_path + "/test2.avi",
-      video_directory_path + "/test3.avi",
-      video_directory_path + "/test4.avi",
-      video_directory_path + "/test5.avi"
+      video_directory_path + "/test1.mp4",
+      video_directory_path + "/test2.mp4",
+      video_directory_path + "/test3.mp4",
+      video_directory_path + "/test4.mp4",
+      video_directory_path + "/test5.mp4"
    };
 }
 
