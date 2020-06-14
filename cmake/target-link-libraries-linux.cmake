@@ -1,0 +1,9 @@
+target_link_libraries(
+     TurbulenceRemoval
+        opencv_core
+        opencv_imgproc
+        opencv_imgcodecs
+        opencv_highgui
+        opencv_videoio
+        opencv_video
+)

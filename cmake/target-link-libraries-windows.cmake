@@ -1,0 +1,21 @@
+if(${CMAKE_BUILD_TYPE} MATCHES Debug)
+	target_link_libraries(
+		TurbulenceRemoval 
+			opencv_cored 
+			opencv_imgprocd 
+			opencv_imgcodecsd 
+			opencv_highguid
+			opencv_videoiod
+			opencv_videod
+	)
+else()
+	target_link_libraries(
+		TurbulenceRemoval 
+			opencv_core 
+			opencv_imgproc 
+			opencv_imgcodecs 
+			opencv_highgui
+			opencv_videoio
+			opencv_video
+	)
+endif()
