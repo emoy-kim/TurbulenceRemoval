@@ -15,8 +15,3 @@
   * **space bar**: pause/resume
   * **f key**: move next frame when paused
   * **ESC key**: move next video when played
-  
-    
-## NOTE
-  This code is posted using *git lfs* because it is including large videos.  
-  You should activate *LFS* when you clone this project.
